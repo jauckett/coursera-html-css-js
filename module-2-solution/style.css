@@ -18,11 +18,18 @@ h2 {
 p {
     border: 1px solid black;
     padding: 30px;
+    background-color: gray;
 }
 
 .row {
     width: 100%;
 
+}
+
+.spacer {
+	margin-left: 20px;
+	margin-right: 20px;
+	
 }
 
 
@@ -39,6 +46,11 @@ p {
     background-color: #E4DB78;
 }
 
+section {
+	/* background-color: #5B8AB2
+	*/
+	margin-bottom: 20px;
+}
 
 
 
@@ -50,8 +62,9 @@ p {
     float: left;
 /*    border: 1px solid green;
 margin-left:5px;
-*/
+
 background-color: #999393
+*/
   }
   .col-lg-1 {
     width: 8.33%;
@@ -96,8 +109,9 @@ background-color: #999393
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
 
-background-color: #999393
+/*background-color: #999393 */
   }
+  
   .col-md-1 {
     width: 8.33%;
   }
@@ -141,7 +155,7 @@ background-color: #999393
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
 
-background-color: #999393
+/* background-color: #999393 */
   }
   .col-sm-1 {
     width: 8.33%;
