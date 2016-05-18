@@ -34,7 +34,6 @@ p {
 
 .row {
     width: 100%;
-/*    display: table; */
 }
 
 /* for setting margins around each section to space them out */
@@ -43,6 +42,11 @@ p {
 	margin-right: 20px;
 }
 
+.spacer {
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
 
 /* different background colors for section titles */
 .titleChicken {
@@ -55,12 +59,9 @@ p {
     background-color: #E4DB78;
 }
 
-/* each section formatting style, need a bottom margin when they stack */
 .section {
 	margin-bottom: 20px;
-/*	display: table-row; */
 }
-
 
 
 
