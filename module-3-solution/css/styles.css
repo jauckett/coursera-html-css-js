@@ -2,10 +2,32 @@
 body {
 	font-family: "Times New Roman", Georgia, Serif;
 }
-.section {
-	background-color: #917474
+
+#header-nav {
+	color: black;
+	border-width: 1px;
+	border-color: black;
+	background-color: #56819A;
 
 }
+
+#logo {
+	color: black;
+}
+
+
+#menu1 {
+	background-color: #56819A;
+	border-width: 1px;
+	border-color: black;
+}
+/*
+.section {
+	background-color: #917474
+	border: 1px;
+}
+*/
+
 
 div h2 {
 	text-align: center;
