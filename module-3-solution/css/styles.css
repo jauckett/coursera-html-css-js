@@ -7,7 +7,8 @@ body {
 	color: black;
 	border-width: 1px;
 	border-color: black;
-	background-color: #56819A;
+	background-color: #AEAAAA;
+	border-radius: 0;
 
 }
 
@@ -16,23 +17,45 @@ body {
 }
 
 
-#menu1 {
-	background-color: #56819A;
-	border-width: 1px;
-	border-color: black;
-}
-/*
-.section {
-	background-color: #917474
-	border: 1px;
-}
-*/
-
-
-div h2 {
+div h3 {
 	text-align: center;
 }
 
+
 p {
-	height: 1000px;
+	height: 700px;
+	padding-right: 10px;
+	padding-left: 10px;	
+}
+
+.backtotop {
+	color: black;
+}
+
+.spacer {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: gray;
+}
+
+a:visited {
+	color: #2119BE;
+}
+
+
+
+/* different background colors for section titles */
+.titleChicken {
+    background-color: #D5849B;
+}
+.titleBeef {
+    background-color: #AC1818;
+}
+.titleSushi {
+    background-color: #E4DB78;
 }
